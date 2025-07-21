@@ -1,0 +1,30 @@
+@import '../index.css';
+@import './Skills.css';
+
+.inner-title {
+    color: var(--main-h-colors);
+    font-size: .9rem;
+}
+
+.project-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid var(--main-h-colors);
+}
+.p-name {
+    font-size: 1rem;
+    text-decoration: none;
+    margin: auto 10px;
+    cursor: pointer;
+}
+.project-div:hover{
+    color: blueviolet;
+}
+.project-discription {
+    margin: auto 0px;
+    font-size: .8rem;
+    font-family: initial;
+}

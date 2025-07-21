@@ -1,0 +1,53 @@
+@import '../index.css';
+body{
+    color: white;
+}
+.main-title{
+  font: caption;
+  padding: 5px 3px;
+  background-color: var(--main-h-colors);
+  text-transform: capitalize;
+  color: white;
+  border-radius: 5px;
+}
+.skills-list{
+  flex: 1 1 0;
+  min-width: 0;
+}
+.skills-title{
+  color: var(--main-h-colors);
+  margin: 10px 5px 15px;
+}
+.skill-heading{
+  font-weight: 540;
+}
+.skills-items{
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  border-right: 1px solid #008aff;
+  
+}
+ul{
+  padding: 5px;
+ 
+}
+.skills-discription{
+  color: #ffffff;
+  font-size: 11px;
+  margin: 3px;
+  list-style: none;
+  margin-right: 5px;
+  border-bottom: 1px solid #008aff;
+}
+@media (max-width: 768px) {
+  .main-title{
+    font-size: .8rem;
+  }
+  .skills-title{
+    display: none;
+  }
+  li{
+    overflow: scroll;
+  }
+}
