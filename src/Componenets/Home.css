@@ -1,0 +1,115 @@
+@import '../index.css';
+.item-box{
+  text-align: center;
+  overflow-y:auto;
+  height: 60vh;
+  width: 40vw;
+  display: block;
+  position: fixed;
+  top: 20%;
+  right: 5vw;
+  padding: 1rem;
+  /* border: #008aff 1px solid; */
+}
+.item-box::-webkit-scrollbar {
+  width: 5px;
+}
+.item-box::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 3px solid var(--main-h-colors)}
+.home-item{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.intro{
+  padding-top: 14px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 0px #5d5e7a,
+             
+}
+
+.intro-name{
+  
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--main-h-colors);
+  text-shadow: 2px 2px 4px blue;
+  
+}
+.resume-div{
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+/* .resume-btn{
+  color: black;
+  background-color: var(--main-h-colors);
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 1000;
+  border-radius: 5px;
+}
+.resume-btn:hover{
+  background-color: darkcyan;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+} */
+ .resume-btn {
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: large;
+  padding: 4px 6px;
+  color: #fff !important;
+}
+
+.resume-btn::after {
+  max-width: 100%;
+  height: 2px;
+  display: block;
+  content: "";
+  background: linear-gradient(-90deg, #ff9100 0%, #f10366 50%, #6173ff 100%);
+  opacity: 1;
+  margin-bottom: -6px;
+  margin-top: 1px;
+}
+.resume-btn:hover{
+  transform: scale(1.10);
+  transition: all 0.3s ease-in-out;
+}
+.resume-btn-div {
+  display: flex;
+}
+@media (max-width: 768px){
+  .item-box{
+    padding: 0.1rem;
+    width: 60vw;
+    height: 30vh;
+    top: 19vh;
+  }
+  .intro{
+    font-size: .68rem;
+  }
+  .intro-name{
+    font-size: 1rem;
+  }
+  .resume-div{
+    margin-top: -2rem;
+  }
+  .resume-btn{
+    font-size: .8rem;
+  }
+}

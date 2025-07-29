@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './Home.css'
 export default function Home() {
   return (
     <div className="item-box">
       <div className='home-item'>
-        <p className='intro'>
+        <p className='intro'> 
           <span className='intro-name'>Hi, I'm Ayush —</span> a passionate learner building beautiful and functional web projects. I love to explore new technologies and create innovative solutions that make a difference.<br /> Welcome to my portfolio!
         </p>
         <div className='resume-div'>

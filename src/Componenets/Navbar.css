@@ -1,0 +1,43 @@
+@import '../index.css';
+.nav_bar{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.nav-Items{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 20px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.right .nav-Items:hover{
+  border-bottom: 2px solid var(--main-h-colors);
+  border-radius: 1px;
+  color: teal;
+}
+.left{
+  color: var(--main-h-colors);
+  font-size: 2rem;
+}
+@media (max-width: 768px){
+  .nav-Items{
+  font-size: .8rem;
+  padding: 5px 10px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left{
+  color: var(--main-h-colors);
+  font-size: 1rem;
+}
+}
