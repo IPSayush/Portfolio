@@ -2,6 +2,7 @@
   "name": "portfolio-2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://IPSayush.github.io/Portfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -41,6 +42,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^0.0.0"
   }
 }
