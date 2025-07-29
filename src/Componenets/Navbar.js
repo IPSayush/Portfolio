@@ -1,5 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
 import './Navbar.css'
+=======
+>>>>>>> 009f4e8d4531de093e0d18d3d10485765110d04f
 import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
