@@ -1,0 +1,17 @@
+        This is the div structure of my Skill 
+        <div className='skills-list'>
+          <div className='skills-title text-center'>
+            <h6>Skills</h6>
+          </div>
+          <div className='skills-items text-center'>
+            <ul>
+              <li>HTML5, CSS3, JavaScript (ES6+)</li>
+              <li>React.js (including React Router)</li>
+              <li>Bootstrap CSS for responsive UI</li>
+              <li>Responsive layout design (mobile & desktop)</li>
+              <li>Google Fonts & CDN usage</li>
+              <li>Background image handling & custom shadows</li>
+              <li>Font Awesome & React Icons integration</li>
+            </ul>
+          </div>
+        </div>
