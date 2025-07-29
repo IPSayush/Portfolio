@@ -1,9 +1,13 @@
 @import '../index.css';
-@import './Skills.css';
-
-.inner-title {
-    color: var(--main-h-colors);
-    font-size: .9rem;
+/* @import './Skills.css'; */
+.main-title{
+  font: caption;
+  padding: 5px 3px;
+  background-color: var(--main-h-colors);
+  text-transform: capitalize;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
 .project-div {
@@ -21,10 +25,23 @@
     cursor: pointer;
 }
 .project-div:hover{
-    color: blueviolet;
+    color: white;
+    background-color: var(--main-h-colors);
+    transform:scale(1.05);
+    transition: all .3s ease-in-out;
 }
 .project-discription {
     margin: auto 0px;
     font-size: .8rem;
     font-family: initial;
+}
+.inner-title {
+    color: var(--main-h-colors);
+    font-size: .9rem;
+    margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .main-title{
+    font-size: .8rem;
+  }
 }

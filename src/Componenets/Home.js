@@ -9,15 +9,13 @@ export default function Home() {
         </p>
         <div className='resume-div'>
           <div className="resume-btn-div">
-            <a className="resume-btn" href="/">View Resume</a>
+            <a className="resume-btn" href="/assets/pdfFile.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
           </div>
           <div className="resume-btn-div">
-            <a className="resume-btn" href="/">Download Resume</a>
+            <a className="resume-btn" href="/assets/pdfFile.pdf" download>Download Resume</a>
           </div>
         </div>
       </div>
-
-
     </div>
   )
 }
